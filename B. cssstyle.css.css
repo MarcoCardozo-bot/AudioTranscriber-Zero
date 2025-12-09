@@ -1,0 +1,7 @@
+body{font-family:system-ui,Arial;background:#111;color:#eee;margin:0;padding:1rem}
+h1{text-align:center}
+#controls{display:flex;gap:.5rem;justify-content:center;margin-bottom:1rem}
+button{background:#ff6600;border:0;color:#fff;padding:.5rem 1rem;border-radius:4px;cursor:pointer}
+button:disabled{background:#444;cursor:not-allowed}
+canvas{background:#222;display:block;margin:0 auto 1rem;border:1px solid #444}
+#result{text-align:center;margin-top:1rem}
