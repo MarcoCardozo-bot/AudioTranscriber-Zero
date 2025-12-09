@@ -1,0 +1,26 @@
+/* style.css – mini-reset e estilo limpo */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #f3f4f6;
+  color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+h1 { font-size: 2rem; margin-bottom: 1rem; }
+input[type=file] { margin: 1rem 0; }
+button {
+  background: #0ea5e9;
+  color: #fff;
+  border: none;
+  padding: .75rem 1.5rem;
+  border-radius: .5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background .2s;
+}
+button:hover { background: #0284c7; }
